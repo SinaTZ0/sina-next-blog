@@ -1,0 +1,10 @@
+**Issue**:             kebabcase; ex: github-actions-for-linting
+
+↓ 
+**branch**:            `build/ || feature/ || bugfix/ || chore/ + <issue-name>_<id>`; ex: build/github-actions-for-linting_4
+
+↓ 
+**commit**:            `fix(#<id>) || feat(#<id>) || chore(#<id>) + : + <issue-task> ?? anything`; ex: chore(#4): adding git naming conventions
+
+↓ ↓ ↓ ↓ ...
+**Pull Request**:      `merge__<branch-name>`; ex: merge__build/github-actions-for-linting_4
