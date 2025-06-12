@@ -24,6 +24,7 @@ const Configuration: UserConfig = {
       ],
     ],
     "scope-case": [RuleConfigSeverity.Error, "always", "lower-case"],
+    "scope-empty": [RuleConfigSeverity.Error, "never"],
     "subject-case": [RuleConfigSeverity.Error, "always", "lower-case"],
     "subject-empty": [RuleConfigSeverity.Error, "never"],
     "subject-full-stop": [RuleConfigSeverity.Error, "never", "."],
