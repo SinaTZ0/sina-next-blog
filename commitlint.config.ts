@@ -47,6 +47,8 @@ const Configuration: UserConfig = {
     // Example: 'body-leading-blank': [RuleConfigSeverity.Warning, 'always'],
     // Example: 'footer-leading-blank': [RuleConfigSeverity.Warning, 'always'],
   },
+  // Use our own formatter for more descriptive output
+  formatter: "./scripts/commitlint-formatter.js",
 };
 
 export default Configuration;
